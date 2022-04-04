@@ -1,0 +1,25 @@
+from main import Main
+
+carlos = Main("Carlos","A", 15, 200)
+carlos.entrada_de_datos()
+carlos.sueldo("")
+carlos.descuento("")
+carlos.pago_extra("")
+carlos.pago_total("")
+carlos.boleta_de_pagos()
+
+juan = Main("Juan","B", 10, 300)
+juan.entrada_de_datos()
+juan.sueldo("")
+juan.descuento("")
+juan.pago_extra("")
+juan.pago_total("")
+juan.boleta_de_pagos()
+
+luis = Main("Luis","C", 30, 50)
+luis.entrada_de_datos()
+luis.sueldo("")
+luis.descuento("")
+luis.pago_extra("")
+luis.pago_total("")
+luis.boleta_de_pagos()
